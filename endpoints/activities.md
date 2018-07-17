@@ -60,7 +60,7 @@ Authorization bearer token
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter type="string" name="after" %}
+{% api-method-parameter type="string" name="after" required=true %}
 An ISO8601 date string.
 {% endapi-method-parameter %}
 

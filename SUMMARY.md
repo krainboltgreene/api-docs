@@ -2,11 +2,11 @@
 
 * [StreamElements API](README.md)
 * [Getting Started](getting-started.md)
-* OAuth2
-  * Scopes
-* Authentication
+* [OAuth2](oauth2/README.md)
+  * [Scopes](oauth2/scopes.md)
+* [Authentication](authentication.md)
 * [Rate Limiting](rate-limiting.md)
-* Pagination
+* [Pagination](pagination.md)
 * [Websockets](websockets.md)
 * [Changelog](changelog.md)
 
@@ -17,17 +17,17 @@
 * [Channels](endpoints/channels.md)
 * [Contests](endpoints/contests.md)
 * [Chatstats](endpoints/chatstats.md)
-* Giveaways
-* Overlays
+* [Giveaways](endpoints/giveaways.md)
+* [Overlays](endpoints/overlays.md)
 * [Points](endpoints/points.md)
 * [Sessions](endpoints/sessions.md)
 * [Songrequest](endpoints/songrequest.md)
-* Stats
-* Store
-* Streams
-* Themes
-* Tips
-* Tipping
-* Uploads
-* Users
+* [Stats](endpoints/stats.md)
+* [Store](endpoints/store.md)
+* [Streams](endpoints/streams.md)
+* [Themes](endpoints/themes.md)
+* [Tips](endpoints/tips.md)
+* [Tipping](endpoints/tipping.md)
+* [Uploads](endpoints/uploads.md)
+* [Users](endpoints/users.md)
 
