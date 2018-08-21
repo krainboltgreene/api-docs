@@ -31,13 +31,13 @@ socket.on('authenticated', onAuthenticated);
 socket.on('event', onEvent);
 
 function onConnect() {
-    console.log('Successfully connected to the websocket'):
+    console.log('Successfully connected to the websocket');
 
-    socket.emit('authenticate', { method: 'jwt', token: accessToken }));
+    socket.emit('authenticate', { method: 'jwt', token: accessToken });
 }
 
 function onDisconnect() {
-    console.log('Disconnected from websocket')
+    console.log('Disconnected from websocket');
     // Reconnect
 }
 
